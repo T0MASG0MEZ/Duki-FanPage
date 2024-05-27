@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app/css/style.css">
+    <script src="./app/js/index.js" defer></script>
+    <title>Fan Page Duki</title>
+</head>
+
+<body>
+    <header class="bg-black flex items-center justify-around text-white fixed z-10 w-screen p-3" id="home">
+        <picture class="max-w-19">
+            <img src="./assests/Logo-Duki.jpg" alt="Logo Duki">
+        </picture>
+        <ul class="flex gap-8 text-3xl items-center tracking-wide">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#show">Shows</a>
+            </li>
+            <li>
+                <a href="#discografica">Discografica</a>
+            </li>
+            <li>
+                <a href="#galeria">Fotos</a>
+            </li>
+            <li>
+                <a href="#">Tienda</a>
+            </li>
+        </ul>
+        <ul class="flex gap-4 items-center text-3xl">
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section id="">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assests/Duki-concierto-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assests/Duki-concierto-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assests/Duki-concierto-3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="bg-black">
+            <article class="flex flex-col items-center justify-center p-16">
+                <h2 class="text-5xl text-white p-12 tracking-wider" id="show">PROXIMOS SHOWS</h2>
+                <div class=" border-blue-100 tracking-wider">
+                    <div class="text-white p-4 border-b-2 border-gray-700 flex-grow">
+                        <ul class="grid grid-cols-4 items-center gap-4">
+                            <li class="text-2xl">
+                                <p>14 MAY 2024</p>
+                            </li>
+                            <li class="text-2xl">
+                                <p>PARAGUAY</p>
+                            </li>
+                            <li class="text-2xl">
+                                <p>COSQUIN ROCK</p>
+                            </li>
+                            <li class="text-2xl bg-red-500 py-3 px-6 rounded-xl" id="comprarParaguay"
+                            onclick="modalItems('info1')">
+                                <button>Comprar Tickets</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" border-blue-100 tracking-wider">
+                    <div class="text-white p-4 border-b-2 border-gray-700 flex-grow">
+                        <ul class="grid grid-cols-4 items-center gap-4">
+                            <li class="text-2xl">
+                                <p>29 MAY 2024</p>
+                            </li>
+                            <li class="text-2xl">
+                                <p>CHILE</p>
+                            </li>
+                            <li class="text-2xl">
+                                <p>MOVISTAR ARENA</p>
+                            </li>
+                            <li class="text-2xl bg-red-500 py-3 px-6 rounded-xl" id="comprarParaguay" onclick="modalItems('info2')">
+                                <button>Comprar Tickets</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" border-blue-100 tracking-wider">
+                    <div class="text-white p-4 border-b-2 border-gray-700 flex-grow">
+                        <ul class="grid grid-cols-4 items-center gap-4">
+                            <li class="text-2xl">
+                                <p>12 JUL 2024</p>
+                            </li>
+                            <li class="text-2xl">
+                                <p>PERU</p>
+                            </li>
+                            <li class="text-2xl">
+                                <p>CC FESTIVA</p>
+                            </li>
+                            <li class="text-2xl bg-red-500 py-3 px-6 rounded-xl" id="comprarParaguay" onclick="modalItems('info3')">
+                                <button>Comprar Tickets</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" border-blue-100 tracking-wider">
+                    <div class="text-white p-4 border-b-2 border-gray-700 flex-grow">
+                        <ul class="grid grid-cols-4 items-center gap-4">
+                            <li class="text-2xl">
+                                <p>22 JUL 2024</p>
+                            </li>
+                            <li class="text-2xl">
+                                <p>BARCELONA</p>
+                            </li>
+                            <li class="text-2xl">
+                                <p>FESTIVAL CRUILLA</p>
+                            </li>
+                            <li class="text-2xl bg-red-500 py-3 px-6 rounded-xl" id="comprarParaguay" onclick="modalItems('info4')">
+                                <button>Comprar Tickets</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="fixed z-50 left-0 top-0 w-full h-full overflow-auto bg-gradient-to-tl from-black hidden rounded-xl" id="modal">
+            <article class="bg-white my-[15%] w-max mx-auto relative rounded-3xl">
+                <a class="top-[5%] right-[3%] absolute z-50 cursor-pointer" 
+                onclick="closeModal()">
+                    <img class="w-16" src="./assests/svg/close-ui-web-svgrepo-com.svg" alt="Close Svg"
+                        title="Close Svg">
+                </a>
+                <div id="modalCaja" class="flex items-center justify-center">
+                    <!-- Modal Caja -->
+                </div>
+            </article>
+        </section>
+        <section class="bg-concierto bg-cover bg-center" id="discografica">
+            <article class="flex items-center justify-center flex-col bg-gradient-to-t from-black">
+                <div class="">
+                    <h2 class="text-5xl text-white p-12 tracking-wider">DISCOGRAFICA</h2>
+                </div>
+                <div class="grid grid-cols-3 gap-10 text-white" id="albumes-container">
+                    <!-- Albumes -->
+                </div>
+            </article>
+        </section>
+        <section class="bg-black flex items-center justify-center flex-col">
+            <div>
+                <h2 class="text-6xl text-white p-16 tracking-wider">GALERIA</h2>
+            </div>
+            <article id="galeria" class="grid grid-cols-3 gap-6 max-w-screen-2xl">
+                <!-- Galeria -->
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="bg-black pt-12">
+            <article>
+                <div class="flex items-center justify-center flex-col">
+                    <hr class="w-1/2 text-white ">
+                    <p class="p-12">© 2024 Tomas Gomez. Casi todos los derechos reservados</p>
+                </div>
+            </article>
+        </section>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/c5c9b9e858.js" crossorigin="anonymous"></script>
+<script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

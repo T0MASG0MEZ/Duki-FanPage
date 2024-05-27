@@ -1,0 +1,83 @@
+{
+    "albumes": [
+        {
+            "imagenUrl": "assests/logo-albumes/antes-de-ameri.jpg",
+            "titulo": "Antes de Ameri",
+            "año": 2023,
+            "spotifyUrl": "https://open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
+            "likes": 546
+        },
+        {
+            "imagenUrl": "assests/logo-albumes/temporada-de-reggaeton-2.jpg",
+            "titulo": "Temporada de Reggaeton 2",
+            "año": 2022,
+            "spotifyUrl": "https//open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
+            "likes": 980
+        },
+        {
+            "imagenUrl": "assests/logo-albumes/temporada-de-reggaeton.jpg",
+            "titulo": "Temporada de Reggaeton",
+            "año": 2021,
+            "spotifyUrl": "https//open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
+            "likes": 940
+        },
+        {
+            "imagenUrl": "assests/logo-albumes/desde-fin-del-mundo.jpg",
+            "titulo": "Desde el Fin del Mundo",
+            "año": 2021,
+            "spotifyUrl": "https//open.spotify.com-album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
+            "likes": 992
+        },
+        {
+            "imagenUrl": "assests/logo-albumes/24.jpg",
+            "titulo": 24,
+            "año": 2020,
+            "spotifyUrl": "https//open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
+            "likes": 340
+        },
+        {
+            "imagenUrl": "assests/logo-albumes/super-sangre-joven.jpg",
+            "titulo": "Super Sangre Joven",
+            "año": 2019,
+            "spotifyUrl": "https://open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
+            "likes": 120
+        }
+    ],
+    "galeria": [
+        {
+            "imagenGaleria": "assests/galeria/duki-1.jpg"
+        },
+        {
+            "imagenGaleria": "assests/galeria/duki-3.jpg"
+        },
+        {
+            "imagenGaleria": "assests/galeria/duki-2.jpg"
+        },
+        {
+            "imagenGaleria": "assests/galeria/duki-4.jpg"
+        },
+        {
+            "imagenGaleria": "assests/galeria/duki-5.jpg"
+        },
+        {
+            "imagenGaleria": "assests/galeria/duki-6.jpg"
+        }
+    ],
+    "info1": 
+    {
+        "locacion": "COSQUIN ROCK",
+        "img": "assests/img-ventanas/duki-1.jpg"
+    },
+    "info2": {
+        "locacion": "MOVISTAR ARENA",
+        "img": "assests/img-ventanas/duki-1.jpg"
+    },
+    "info3": {
+        "locacion": "CC FESTIVA",
+        "img": "assests/img-ventanas/duki-1.jpg"
+    },
+    "info4": {
+        "locacion": "FESTIVAL CRUILLA",
+        "img": "assests/img-ventanas/duki-1.jpg"
+    }
+}
