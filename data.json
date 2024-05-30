@@ -1,7 +1,11 @@
 {
     "albumes": [
         {
+<<<<<<< HEAD
             "imagenUrl": "assests/albumes/antes-de-ameri.jpg",
+=======
+            "imagenUrl": "assests/logo-albumes/antes-de-ameri.jpg",
+>>>>>>> 53a6f8cf95e047d437dc84d708181e33efd9ac5a
             "titulo": "Antes de Ameri",
             "año": 2023,
             "spotifyUrl": "https://open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
@@ -9,7 +13,11 @@
             "id" : 0
         },
         {
+<<<<<<< HEAD
             "imagenUrl": "assests/albumes/temporada-de-reggaeton-2.jpg",
+=======
+            "imagenUrl": "assests/logo-albumes/temporada-de-reggaeton-2.jpg",
+>>>>>>> 53a6f8cf95e047d437dc84d708181e33efd9ac5a
             "titulo": "Temporada de Reggaeton 2",
             "año": 2022,
             "spotifyUrl": "https//open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
@@ -17,7 +25,11 @@
             "id": 1
         },
         {
+<<<<<<< HEAD
             "imagenUrl": "assests/albumes/temporada-de-reggaeton.jpg",
+=======
+            "imagenUrl": "assests/logo-albumes/temporada-de-reggaeton.jpg",
+>>>>>>> 53a6f8cf95e047d437dc84d708181e33efd9ac5a
             "titulo": "Temporada de Reggaeton",
             "año": 2021,
             "spotifyUrl": "https//open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
@@ -25,7 +37,11 @@
             "id": 2
         },
         {
+<<<<<<< HEAD
             "imagenUrl": "assests/albumes/desde-fin-del-mundo.jpg",
+=======
+            "imagenUrl": "assests/logo-albumes/desde-fin-del-mundo.jpg",
+>>>>>>> 53a6f8cf95e047d437dc84d708181e33efd9ac5a
             "titulo": "Desde el Fin del Mundo",
             "año": 2021,
             "spotifyUrl": "https//open.spotify.com-album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
@@ -33,7 +49,11 @@
             "id": 3
         },
         {
+<<<<<<< HEAD
             "imagenUrl": "assests/albumes/24.jpg",
+=======
+            "imagenUrl": "assests/logo-albumes/24.jpg",
+>>>>>>> 53a6f8cf95e047d437dc84d708181e33efd9ac5a
             "titulo": 24,
             "año": 2020,
             "spotifyUrl": "https//open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
@@ -41,7 +61,11 @@
             "id": 4
         },
         {
+<<<<<<< HEAD
             "imagenUrl": "assests/albumes/super-sangre-joven.jpg",
+=======
+            "imagenUrl": "assests/logo-albumes/super-sangre-joven.jpg",
+>>>>>>> 53a6f8cf95e047d437dc84d708181e33efd9ac5a
             "titulo": "Super Sangre Joven",
             "año": 2019,
             "spotifyUrl": "https://open.spotify.com/album/26nUVuonXEdbJTo9PeBYoR?si=aFsjpMTKS9ybtdhzZ6xXQA",
