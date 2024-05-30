@@ -54,7 +54,7 @@ function albumesItems(data) {
                         <p class="text-2xl contador-likes" id="contador-${ x.id }" >${ x.likes }</p>
                     </div>
                 </div> 
-                <button class="flex items-center gap-3 bg-gray-600 px-4 py-3 rounded-3xl">
+                <button class="flex items-center gap-3 bg-gray-500 px-4 py-3 rounded-3xl hover:bg-gray-700 transition duration-150 ease-in-out">
                     <i class="fa-brands fa-spotify fa-2xl"></i><p class="text-xl">Escuchar ahora</p>
                 </button>
             </div>  
