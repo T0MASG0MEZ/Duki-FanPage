@@ -14321,9 +14321,31 @@ video {
   color:rgb(255 255 255 / var(--tw-text-opacity))
 }
 
+.transition-all{
+  transition-property:all;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:150ms
+}
+
+.transition-shadow{
+  transition-property:box-shadow;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:150ms
+}
+
 body {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.hover\:bg-gray-400:hover{
+  --tw-bg-opacity:1;
+  background-color:rgb(156 163 175 / var(--tw-bg-opacity))
+}
+
+.hover\:text-gray-400:hover{
+  --tw-text-opacity:1;
+  color:rgb(156 163 175 / var(--tw-text-opacity))
 }
 /*# sourceMappingURL=style.css.map */
