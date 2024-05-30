@@ -124,7 +124,7 @@ function galeriaItems (data) {
     data.forEach ((x) => {
         let galeriaImagenes = `
         <picture class="overflow-hidden flex items-center justify-center rounded-2xl">
-            <img class="w-full" src="${x.imagenGaleria}" title="#" />
+            <img class="w-full rounded-xl" src="${x.imagenGaleria}" title="#" />
         </picture>
         `;
         $galeria.innerHTML += galeriaImagenes;
