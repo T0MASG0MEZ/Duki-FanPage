@@ -41,23 +41,29 @@ function albumesItems(data) {
         let article = document.createElement("article");
         article.innerHTML = `
         <div class="bg-gradient-to-t from-gray-950 flex items-center justify-center flex-col
-        border-2 border-gray-400 rounded-2xl">
-            <img class="p-4" src="${x.imagenUrl}" alt="Imagen del álbum"/>
-            <h2 class="text-2xl p-2 tracking-tighter text-pretty">${x.titulo}</h2>
-            <p class="text-xl text-pretty pt-2 pb-4">${x.año}</p>
-            <div class="flex items-center gap-8 p-4">
-                <div class="flex items-center gap-2">
-                    <button class="text-xl rounded-full py-2 px-1 button-likes" data-id="${x.id}">
+        border-2 border-gray-400 rounded-2xl mx-2 px-3">
+            <div class="max-w-sm md:max-w-md lg:max-w-xl">
+                <img class="p-4" src="${x.imagenUrl}" alt="Imagen del álbum"/>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+                <h2 class="text-xl p-2 tracking-tighter text-pretty">${x.titulo}</h2>
+                <p class="text-xl text-pretty pt-2 pb-4">${x.año}</p>
+            </div>
+            <ul class="grid grid-cols-3 p-3">
+                <li class="flex items-center justify-center flex-col">
+                    <button class="rounded-full py-2 px-1 button-likes" data-id="${x.id}">
                         <i class="fa-regular fa-star fa-2xl"></i> 
                     </button>
-                    <div class="max-w-11 flex items-center justify-center">
-                        <p class="text-2xl contador-likes" id="contador-${ x.id }" >${ x.likes }</p>
+                    <div class="">
+                        <p class="text-xl contador-likes" id="contador-${x.id}" >${x.likes }</p>
                     </div>
-                </div> 
-                <button class="flex items-center gap-3 bg-gray-500 px-4 py-3 rounded-3xl hover:bg-gray-700 transition duration-150 ease-in-out">
-                    <i class="fa-brands fa-spotify fa-2xl"></i><p class="text-xl">Escuchar ahora</p>
-                </button>
-            </div>  
+                </li>
+                <li class="col-span-2">
+                    <button class="flex items-center gap-3 bg-gray-500 px-4 py-3 rounded-3xl hover:bg-gray-700 transition duration-150 ease-in-out">
+                        <i class="fa-brands fa-spotify fa-2xl"></i><p class="text-base">Escuchar ahora</p>
+                    </button>
+                </li>
+            </ul>  
         </div>
         `;
         $albumes.appendChild(article);
@@ -176,4 +182,8 @@ function sweetalert () {
             });
         }
     });
+}
+function Menu(e) {
+    let list = document.querySelector('ul');
+    e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
 }
