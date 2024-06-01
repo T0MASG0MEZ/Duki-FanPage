@@ -144,10 +144,10 @@ function modalItems (info) {
     let content = data[info] || { img: "", locacion: "No hay info" };
 
     $modal.innerHTML = `
-        <picture class="w-3/4">
-            <img class="w-full rounded-tl-3xl rounded-bl-3xl" src="${content.img}" />
+        <picture class="w-2/5 hidden lg:block">
+            <img class="w-full rounded-lg" src="${content.img}" />
         </picture>
-        <div class="w-full flex items-center justify-center flex-col gap-5 text-pretty">
+        <div class="w-1/2 pt-4 lg:pt-0 p-4 flex items-center justify-center flex-col text-center gap-3 text-pretty">
             <h2 class="text-3xl">Estas comprando entrada para</h2>
             <h3 class="text-3xl tracking-wider">${content.locacion}</h3>
             <button class="text-3xl py-4 px-6 bg-red-400 text-white rounded-3xl"

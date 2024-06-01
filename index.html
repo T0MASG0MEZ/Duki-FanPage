@@ -13,8 +13,8 @@
 
 <body>
     <header class="bg-black flex items-center justify-around text-white fixed z-10 w-screen" id="home">
-        <picture class="">
-            <img src="./assests/svg/Logo-Duki.svg" alt="Logo Duki">
+        <picture class="p-2 flex items-center justify-center">
+            <img class="w-1/2" src="./assests/duki-ssj.jpg" alt="Logo Duki">
         </picture>
         <ul class="hidden xl:flex xl:items-center xl:justify-center xl:gap-4 xl:text-xl">
             <li class="hover:text-gray-300 transition duration-150 ease-in-out">
@@ -62,7 +62,7 @@
         </ul>
     </header>
     <main>
-        <section id="" class="z-[-1]">
+        <section id="" class="pt-12 md:pt-4">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -173,12 +173,12 @@
         <section
             class="fixed z-50 left-0 top-0 w-full h-full overflow-auto bg-gradient-to-tl from-black hidden rounded-xl"
             id="modal">
-            <article class="bg-white my-[15%] w-max mx-auto relative rounded-3xl">
+            <article class="bg-white mt-[40%] lg:my-[15%] lg:w-1/2 mx-auto relative rounded-3xl w-8/12">
                 <a class="top-[5%] right-[3%] absolute z-50 cursor-pointer" onclick="closeModal()">
-                    <img class="w-16" src="./assests/svg/close-ui-web-svgrepo-com.svg" alt="Close Svg"
+                    <img class="lg:w-14 w-12" src="./assests/svg/close-ui-web-svgrepo-com.svg" alt="Close Svg"
                         title="Close Svg">
                 </a>
-                <div id="modalCaja" class="flex items-center justify-center">
+                <div id="modalCaja" class="flex items-center justify-center p-4 lg:p-0">
                     <!-- Modal Caja -->
                 </div>
             </article>
